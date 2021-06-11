@@ -1,0 +1,694 @@
+ Entering Gaussian System, Link 0=g16
+ Input=wat-ani.com
+ Output=wat-ani.log
+ Initial command:
+ /hpc/applications/gaussian/g16c/g16/l1.exe "/scratch/users/user1/test-ani/g16/test-job/Gau-7244.inp" -scrdir="/scratch/users/user1/test-ani/g16/test-job/"
+ Entering Link 1 = /hpc/applications/gaussian/g16c/g16/l1.exe PID=      7245.
+  
+ Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision C.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2019.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevC.01  3-Jul-2019
+                11-Jun-2021 
+ ******************************************
+ -------------------------------------------------------------
+ #p opt(loose,nomicro) freq external='./ani_calc-2x.sh' nosymm
+ -------------------------------------------------------------
+ 1/7=-1,18=20,19=15,26=1,38=1/1,3;
+ 2/9=110,12=2,15=1,17=6,18=5,40=1/2;
+ 3/11=9,25=1,30=1,41=9900000,43=2,71=1/1;
+ 4/20=17,22=1,24=3,68=-1,113=1,114=1/2;
+ 6/7=2,8=2,9=2,10=2/1;
+ 7/30=1,44=-1/16;
+ 1/7=-1,18=20,19=15,26=1/3(2);
+ 2/9=110,15=1/2;
+ 99//99;
+ 2/9=110,15=1/2;
+ 3/11=9,25=1,30=1,41=9900000,43=2,71=1/1;
+ 4/16=2,20=17,22=1,24=3,68=-1,113=1,114=1/2;
+ 7/30=1,44=-1/16;
+ 1/7=-1,18=20,19=15,26=1/3(-4);
+ 2/9=110,15=1/2;
+ 6/7=2,8=2,9=2,10=2/1;
+ 99/9=10/99;
+ Leave Link    1 at Fri Jun 11 11:44:27 2021, MaxMem=           0 cpu:               0.0 elap:               0.2
+ (Enter /hpc/applications/gaussian/g16c/g16/l101.exe)
+ -------------------
+ Title Card Required
+ -------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ O                     1.36537  -0.00007   0.10009 
+ H                     1.77443   0.76458  -0.30816 
+ H                     1.77489  -0.764    -0.30902 
+ 
+ ITRead=  0  0  0
+ MicOpt= -1 -1 -1
+ NAtoms=      3 NQM=        3 NQMF=       0 NMMI=      0 NMMIF=      0
+                NMic=       0 NMicF=      0.
+                    Isotopes and Nuclear Properties:
+ (Nuclear quadrupole moments (NQMom) in fm**2, nuclear magnetic moments (NMagM)
+  in nuclear magnetons)
+
+  Atom         1           2           3
+ IAtWgt=          16           1           1
+ AtmWgt=  15.9949146   1.0078250   1.0078250
+ NucSpn=           0           1           1
+ AtZEff=  -0.0000000  -0.0000000  -0.0000000
+ NQMom=    0.0000000   0.0000000   0.0000000
+ NMagM=    0.0000000   2.7928460   2.7928460
+ AtZNuc=   8.0000000   1.0000000   1.0000000
+ Leave Link  101 at Fri Jun 11 11:44:28 2021, MaxMem=   104857600 cpu:               0.1 elap:               0.1
+ (Enter /hpc/applications/gaussian/g16c/g16/l103.exe)
+
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Berny optimization.
+ Initialization pass.
+                           ----------------------------
+                           !    Initial Parameters    !
+                           ! (Angstroms and Degrees)  !
+ --------------------------                            --------------------------
+ ! Name  Definition              Value          Derivative Info.                !
+ --------------------------------------------------------------------------------
+ ! R1    R(1,2)                  0.9585         estimate D2E/DX2                !
+ ! R2    R(1,3)                  0.9585         estimate D2E/DX2                !
+ ! A1    A(2,1,3)              105.7648         estimate D2E/DX2                !
+ --------------------------------------------------------------------------------
+ Trust Radius=3.00D-01 FncErr=1.00D-07 GrdErr=1.00D-07 EigMax=2.50D+02 EigMin=1.00D-04
+ Number of steps in this run=     20 maximum allowed number of steps=    100.
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+
+ Leave Link  103 at Fri Jun 11 11:44:28 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ (Enter /hpc/applications/gaussian/g16c/g16/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        1.365366   -0.000067    0.100093
+      2          1           0        1.774431    0.764580   -0.308159
+      3          1           0        1.774890   -0.764005   -0.309024
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3
+     1  O    0.000000
+     2  H    0.958483   0.000000
+     3  H    0.958482   1.528585   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    H2O
+ Framework group  CS[SG(H2O)]
+ Deg. of freedom     3
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         843.9029963         429.2226991         284.5141867
+ Leave Link  202 at Fri Jun 11 11:44:28 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ (Enter /hpc/applications/gaussian/g16c/g16/l301.exe)
+ Standard basis: STO-3G (5D, 7F)
+ Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
+     7 basis functions,    21 primitive gaussians,     7 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy         9.1797718524 Hartrees.
+ IExCor=    0 DFT=F Ex=HF Corr=None ExCW=0 ScaHFX=  1.000000
+ ScaDFX=  1.000000  1.000000  1.000000  1.000000 ScalE2=  1.000000  1.000000
+ IRadAn=      5 IRanWt=     -1 IRanGd=            0 ICorTp=0 IEmpDi=  4
+ NAtoms=    3 NActive=    3 NUniq=    3 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 1 integral format.
+ Two-electron integral symmetry is turned off.
+ Leave Link  301 at Fri Jun 11 11:44:28 2021, MaxMem=   104857600 cpu:               0.1 elap:               0.1
+ (Enter /hpc/applications/gaussian/g16c/g16/l402.exe)
+ External calculation of energy and first derivatives.
+ Running external command "./ani_calc-2x.sh R"
+         input file       "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EIn"
+         output file      "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EOu"
+         message file     "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EMs"
+         fchk file        "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EFC"
+         mat. el file     "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EUF"
+Generating mol.tmp
+ Recovered energy= -76.3881878507     dipole=      0.000000000000      0.000000000000      0.000000000000
+ Energy=    -76.3881879     NIter=   0.
+ Dipole moment=       0.000000       0.000000       0.000000
+ Leave Link  402 at Fri Jun 11 11:44:35 2021, MaxMem=   104857600 cpu:               0.0 elap:               7.2
+ (Enter /hpc/applications/gaussian/g16c/g16/l601.exe)
+ Leave Link  601 at Fri Jun 11 11:44:35 2021, MaxMem=   104857600 cpu:               0.1 elap:               0.1
+ (Enter /hpc/applications/gaussian/g16c/g16/l716.exe)
+ Dipole        = 0.00000000D+00 0.00000000D+00 0.00000000D+00
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        8          -0.006747995   -0.000005170    0.006737934
+      2        1           0.003373174    0.002138448   -0.003367578
+      3        1           0.003374822   -0.002133278   -0.003370357
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.006747995 RMS     0.004021148
+ Leave Link  716 at Fri Jun 11 11:44:35 2021, MaxMem=   104857600 cpu:               0.1 elap:               0.1
+ (Enter /hpc/applications/gaussian/g16c/g16/l103.exe)
+
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Berny optimization.
+ FormGI is forming the generalized inverse of G from B-inverse, IUseBI=4.
+ Internal  Forces:  Max     0.004580819 RMS     0.004570919
+ Search for a local minimum.
+ Step number   1 out of a maximum of   20
+ All quantities printed in internal units (Hartrees-Bohrs-Radians)
+ RMS Force = .45709D-02 SwitMx=.10000D-02 MixMth= 1
+ Mixed Optimization -- RFO/linear search
+ Second derivative matrix not updated -- first step.
+ The second derivative matrix:
+                          R1        R2        A1
+           R1           0.55801
+           R2           0.00000   0.55801
+           A1           0.00000   0.00000   0.16000
+ ITU=  0
+     Eigenvalues ---    0.16000   0.55801   0.55801
+ RFO step:  Lambda=-2.04501799D-04 EMin= 1.60000000D-01
+ Linear search not attempted -- first point.
+ Iteration  1 RMS(Cart)=  0.01407061 RMS(Int)=  0.00016645
+ Iteration  2 RMS(Cart)=  0.00017677 RMS(Int)=  0.00000001
+ Iteration  3 RMS(Cart)=  0.00000001 RMS(Int)=  0.00000000
+ ITry= 1 IFail=0 DXMaxC= 1.20D-02 DCOld= 1.00D+10 DXMaxT= 3.00D-01 DXLimC= 3.00D+00 Rises=F
+ Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
+                                 (Linear)    (Quad)   (Total)
+    R1        1.81127   0.00458   0.00000   0.00820   0.00820   1.81947
+    R2        1.81127   0.00458   0.00000   0.00821   0.00821   1.81947
+    A1        1.84594  -0.00455   0.00000  -0.02841  -0.02841   1.81753
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.004581     0.002500     NO 
+ RMS     Force            0.004571     0.001667     NO 
+ Maximum Displacement     0.012007     0.010000     NO 
+ RMS     Displacement     0.014156     0.006667     NO 
+ Predicted change in Energy=-1.023473D-04
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+
+ Leave Link  103 at Fri Jun 11 11:44:35 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ (Enter /hpc/applications/gaussian/g16c/g16/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        1.359012   -0.000072    0.106437
+      2          1           0        1.777609    0.759714   -0.311334
+      3          1           0        1.778066   -0.759133   -0.312193
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3
+     1  O    0.000000
+     2  H    0.962825   0.000000
+     3  H    0.962825   1.518847   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    H2O
+ Framework group  CS[SG(H2O)]
+ Deg. of freedom     3
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         805.9326027         434.7442955         282.4060012
+ Leave Link  202 at Fri Jun 11 11:44:35 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ (Enter /hpc/applications/gaussian/g16c/g16/l301.exe)
+ Standard basis: STO-3G (5D, 7F)
+ Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
+     7 basis functions,    21 primitive gaussians,     7 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy         9.1421539428 Hartrees.
+ IExCor=    0 DFT=F Ex=HF Corr=None ExCW=0 ScaHFX=  1.000000
+ ScaDFX=  1.000000  1.000000  1.000000  1.000000 ScalE2=  1.000000  1.000000
+ IRadAn=      5 IRanWt=     -1 IRanGd=            0 ICorTp=0 IEmpDi=  4
+ NAtoms=    3 NActive=    3 NUniq=    3 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 1 integral format.
+ Two-electron integral symmetry is turned off.
+ Leave Link  301 at Fri Jun 11 11:44:35 2021, MaxMem=   104857600 cpu:               0.1 elap:               0.1
+ (Enter /hpc/applications/gaussian/g16c/g16/l402.exe)
+ External calculation of energy and first derivatives.
+ Running external command "./ani_calc-2x.sh R"
+         input file       "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EIn"
+         output file      "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EOu"
+         message file     "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EMs"
+         fchk file        "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EFC"
+         mat. el file     "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EUF"
+Generating mol.tmp
+ Recovered energy= -76.3882992052     dipole=      0.000000000000      0.000000000000      0.000000000000
+ Energy=    -76.3882992     NIter=   0.
+ Dipole moment=       0.000000       0.000000       0.000000
+ Leave Link  402 at Fri Jun 11 11:44:43 2021, MaxMem=   104857600 cpu:               0.1 elap:               7.2
+ (Enter /hpc/applications/gaussian/g16c/g16/l716.exe)
+ Dipole        = 0.00000000D+00 0.00000000D+00 0.00000000D+00
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        8          -0.000891485   -0.000000780    0.000890155
+      2        1           0.000445523    0.000737382   -0.000444663
+      3        1           0.000445962   -0.000736602   -0.000445492
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.000891485 RMS     0.000620663
+ Leave Link  716 at Fri Jun 11 11:44:43 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.1
+ (Enter /hpc/applications/gaussian/g16c/g16/l103.exe)
+
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Berny optimization.
+ Using GEDIIS/GDIIS optimizer.
+ FormGI is forming the generalized inverse of G from B-inverse, IUseBI=4.
+ Internal  Forces:  Max     0.000968520 RMS     0.000792126
+ Search for a local minimum.
+ Step number   2 out of a maximum of   20
+ All quantities printed in internal units (Hartrees-Bohrs-Radians)
+ RMS Force = .79213D-03 SwitMx=.10000D-02 MixMth= 2
+ Mixed Optimization -- En-DIIS/RFO-DIIS
+ Update second derivatives using D2CorX and points    1    2
+ DE= -1.11D-04 DEPred=-1.02D-04 R= 1.09D+00
+ TightC=F SS=  1.41D+00  RLast= 3.07D-02 DXNew= 5.0454D-01 9.2074D-02
+ Trust test= 1.09D+00 RLast= 3.07D-02 DXMaxT set to 3.00D-01
+ The second derivative matrix:
+                          R1        R2        A1
+           R1           0.52541
+           R2          -0.03260   0.52541
+           A1           0.01520   0.01520   0.16618
+ ITU=  1  0
+ Use linear search instead of GDIIS.
+     Eigenvalues ---    0.16477   0.49421   0.55801
+ RFO step:  Lambda=-2.15627892D-06 EMin= 1.64769519D-01
+ Quartic linear search produced a step of  0.09736.
+ Iteration  1 RMS(Cart)=  0.00124452 RMS(Int)=  0.00000055
+ Iteration  2 RMS(Cart)=  0.00000059 RMS(Int)=  0.00000000
+ ITry= 1 IFail=0 DXMaxC= 1.10D-03 DCOld= 1.00D+10 DXMaxT= 3.00D-01 DXLimC= 3.00D+00 Rises=F
+ Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
+                                 (Linear)    (Quad)   (Total)
+    R1        1.81947   0.00097   0.00080   0.00119   0.00199   1.82147
+    R2        1.81947   0.00097   0.00080   0.00119   0.00199   1.82147
+    A1        1.81753  -0.00008  -0.00277   0.00193  -0.00084   1.81669
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000969     0.002500     YES
+ RMS     Force            0.000792     0.001667     YES
+ Maximum Displacement     0.001100     0.010000     YES
+ RMS     Displacement     0.001244     0.006667     YES
+ Predicted change in Energy=-1.962244D-06
+ Optimization completed.
+    -- Stationary point found.
+                           ----------------------------
+                           !   Optimized Parameters   !
+                           ! (Angstroms and Degrees)  !
+ --------------------------                            --------------------------
+ ! Name  Definition              Value          Derivative Info.                !
+ --------------------------------------------------------------------------------
+ ! R1    R(1,2)                  0.9628         -DE/DX =    0.001               !
+ ! R2    R(1,3)                  0.9628         -DE/DX =    0.001               !
+ ! A1    A(2,1,3)              104.1369         -DE/DX =   -0.0001              !
+ --------------------------------------------------------------------------------
+ Largest change from initial coordinates is atom    1       0.007 Angstoms.
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+
+ Leave Link  103 at Fri Jun 11 11:44:43 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ (Enter /hpc/applications/gaussian/g16c/g16/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        1.359012   -0.000072    0.106437
+      2          1           0        1.777609    0.759714   -0.311334
+      3          1           0        1.778066   -0.759133   -0.312193
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3
+     1  O    0.000000
+     2  H    0.962825   0.000000
+     3  H    0.962825   1.518847   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    H2O
+ Framework group  CS[SG(H2O)]
+ Deg. of freedom     3
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         805.9326027         434.7442955         282.4060012
+ Leave Link  202 at Fri Jun 11 11:44:43 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ (Enter /hpc/applications/gaussian/g16c/g16/l601.exe)
+ Leave Link  601 at Fri Jun 11 11:44:43 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ (Enter /hpc/applications/gaussian/g16c/g16/l9999.exe)
+ Unable to Open any file for archive entry.
+ 1\1\GINC-P016\FOpt\External='./ani_calc-2x.sh'\ZDO\H2O1\user1\11-Jun
+ -2021\0\\#p opt(loose,nomicro) freq external='./ani_calc-2x.sh' nosymm
+ \\Title Card Required\\0,1\O,1.3590120824,-0.0000719947,0.1064374542\H
+ ,1.7776090626,0.7597140029,-0.3113339256\H,1.778065985,-0.7591328682,-
+ 0.3121931186\\Version=ES64L-G16RevC.01\HF=-76.3882992\RMSD=0.000e+00\R
+ MSF=6.207e-04\Dipole=0.,0.,0.\PG=CS [SG(H2O1)]\\@
+ The archive entry for this job was punched.
+
+
+ IT IS BY EATING THE LIGHT OF A STAR THAT WE EXIST, 
+ IN THE FINAL ANALYSIS, 
+ JUST AS IT IS BY PERCEIVING THE LIGHT OF STARS
+ THAT WE DEFINE THE WORLD AROUND US.
+
+                                    -- GILBERT GROSVENOR
+ Leave Link 9999 at Fri Jun 11 11:44:43 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.1
+ Job cpu time:       0 days  0 hours  0 minutes  1.1 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes 15.4 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+ Normal termination of Gaussian 16 at Fri Jun 11 11:44:43 2021.
+ (Enter /hpc/applications/gaussian/g16c/g16/l1.exe)
+ Link1:  Proceeding to internal job step number  2.
+ ----------------------------------------------------------------------
+ #P Geom=AllCheck Guess=TCheck SCRF=Check GenChk External='./ani_calc-2
+ x.sh'/ZDO Freq
+ ----------------------------------------------------------------------
+ 1/7=-1,10=4,18=10,29=7,30=1,38=1,40=1/1,3;
+ 2/12=2,15=1,40=1/2;
+ 3/11=9,14=-4,25=1,30=1,41=9900000,43=2,70=40000002,71=2,116=-2,140=1/1;
+ 4/20=17,22=2,24=3,68=-1,113=1,114=1/2;
+ 6/7=2,8=2,9=2,10=2/1;
+ 7/8=1,25=1,30=1,44=-1/16;
+ 1/7=-1,10=4,18=10,30=1/3;
+ 99//99;
+ Leave Link    1 at Fri Jun 11 11:44:43 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ (Enter /hpc/applications/gaussian/g16c/g16/l101.exe)
+ Structure from the checkpoint file:  "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.chk"
+ -------------------
+ Title Card Required
+ -------------------
+ Charge =  0 Multiplicity = 1
+ Redundant internal coordinates found in file.  (old form).
+ O,0,1.3590120824,-0.0000719947,0.1064374542
+ H,0,1.7776090626,0.7597140029,-0.3113339256
+ H,0,1.778065985,-0.7591328682,-0.3121931186
+ Recover connectivity data from disk.
+ ITRead=  0  0  0
+ MicOpt= -1 -1 -1
+ NAtoms=      3 NQM=        3 NQMF=       0 NMMI=      0 NMMIF=      0
+                NMic=       0 NMicF=      0.
+                    Isotopes and Nuclear Properties:
+ (Nuclear quadrupole moments (NQMom) in fm**2, nuclear magnetic moments (NMagM)
+  in nuclear magnetons)
+
+  Atom         1           2           3
+ IAtWgt=          16           1           1
+ AtmWgt=  15.9949146   1.0078250   1.0078250
+ NucSpn=           0           1           1
+ AtZEff=   5.6000000   1.0000000   1.0000000
+ NQMom=    0.0000000   0.0000000   0.0000000
+ NMagM=    0.0000000   2.7928460   2.7928460
+ AtZNuc=   8.0000000   1.0000000   1.0000000
+ Leave Link  101 at Fri Jun 11 11:44:43 2021, MaxMem=   104857600 cpu:               0.1 elap:               0.1
+ (Enter /hpc/applications/gaussian/g16c/g16/l103.exe)
+
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Berny optimization.
+ Initialization pass.
+ Trust Radius=3.00D-01 FncErr=1.00D-07 GrdErr=1.00D-07 EigMax=2.50D+02 EigMin=1.00D-04
+ Number of steps in this run=      2 maximum allowed number of steps=      2.
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+
+ Leave Link  103 at Fri Jun 11 11:44:43 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.1
+ (Enter /hpc/applications/gaussian/g16c/g16/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        1.359012   -0.000072    0.106437
+      2          1           0        1.777609    0.759714   -0.311334
+      3          1           0        1.778066   -0.759133   -0.312193
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3
+     1  O    0.000000
+     2  H    0.962825   0.000000
+     3  H    0.962825   1.518847   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    H2O
+ Framework group  CS[SG(H2O)]
+ Deg. of freedom     3
+ Full point group                 CS      NOp   2
+ Rotational constants (GHZ):         805.9326027         434.7442955         282.4060012
+ Leave Link  202 at Fri Jun 11 11:44:43 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ (Enter /hpc/applications/gaussian/g16c/g16/l301.exe)
+ Standard basis: STO-3G (5D, 7F)
+ Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
+     7 basis functions,    21 primitive gaussians,     7 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy         9.1421539428 Hartrees.
+ IExCor=    0 DFT=F Ex=HF Corr=None ExCW=0 ScaHFX=  1.000000
+ ScaDFX=  1.000000  1.000000  1.000000  1.000000 ScalE2=  1.000000  1.000000
+ IRadAn=      5 IRanWt=     -1 IRanGd=            0 ICorTp=0 IEmpDi=  4
+ NAtoms=    3 NActive=    3 NUniq=    3 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 1 integral format.
+ Two-electron integral symmetry is turned off.
+ Leave Link  301 at Fri Jun 11 11:44:43 2021, MaxMem=   104857600 cpu:               0.1 elap:               0.1
+ (Enter /hpc/applications/gaussian/g16c/g16/l402.exe)
+ External calculation of energy, first and second derivatives.
+ Running external command "./ani_calc-2x.sh R"
+         input file       "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EIn"
+         output file      "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EOu"
+         message file     "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EMs"
+         fchk file        "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EFC"
+         mat. el file     "/scratch/users/user1/test-ani/g16/test-job/Gau-7245.EUF"
+Generating mol.tmp
+ Recovered energy= -76.3882992052     dipole=      0.000000000000      0.000000000000      0.000000000000
+ Energy=    -76.3882992     NIter=   0.
+ Dipole moment=       0.000000       0.000000       0.000000
+ Leave Link  402 at Fri Jun 11 11:44:58 2021, MaxMem=   104857600 cpu:               0.0 elap:              14.3
+ (Enter /hpc/applications/gaussian/g16c/g16/l601.exe)
+ Leave Link  601 at Fri Jun 11 11:44:58 2021, MaxMem=   104857600 cpu:               0.1 elap:               0.1
+ (Enter /hpc/applications/gaussian/g16c/g16/l716.exe)
+ Dipole        = 0.00000000D+00 0.00000000D+00 0.00000000D+00
+ Full mass-weighted force constant matrix:
+ Low frequencies --- -128.9467 -120.7194 -116.0384   -0.0012   -0.0000    0.0000
+ Low frequencies --- 1718.1701 3822.4092 3942.2725
+ Diagonal vibrational polarizability:
+        0.0000000       0.0000000       0.0000000
+ Harmonic frequencies (cm**-1), IR intensities (KM/Mole), Raman scattering
+ activities (A**4/AMU), depolarization ratios for plane and unpolarized
+ incident light, reduced masses (AMU), force constants (mDyne/A),
+ and normal coordinates:
+                      1                      2                      3
+                      A                      A                      A
+ Frequencies --   1718.1701              3822.4092              3942.2725
+ Red. masses --      1.0825                 1.0453                 1.0815
+ Frc consts  --      1.8828                 8.9986                 9.9030
+ IR Inten    --      0.0000                 0.0000                 0.0000
+  Atom  AN      X      Y      Z        X      Y      Z        X      Y      Z
+     1   8    -0.05  -0.00   0.05    -0.04  -0.00   0.04     0.00  -0.07  -0.00
+     2   1     0.40  -0.43  -0.40     0.28   0.58  -0.28     0.31   0.56  -0.31
+     3   1     0.40   0.43  -0.40     0.28  -0.58  -0.28    -0.31   0.56   0.31
+
+ -------------------
+ - Thermochemistry -
+ -------------------
+ Temperature   298.150 Kelvin.  Pressure   1.00000 Atm.
+ Atom     1 has atomic number  8 and mass  15.99491
+ Atom     2 has atomic number  1 and mass   1.00783
+ Atom     3 has atomic number  1 and mass   1.00783
+ Molecular mass:    18.01056 amu.
+ Principal axes and moments of inertia in atomic units:
+                           1         2         3
+     Eigenvalues --     2.23932   4.15127   6.39059
+           X           -0.00030   0.70763   0.70658
+           Y            1.00000   0.00061  -0.00019
+           Z            0.00057  -0.70658   0.70763
+ This molecule is an asymmetric top.
+ Rotational symmetry number  1.
+ Rotational temperatures (Kelvin)     38.67867    20.86444    13.55335
+ Rotational constants (GHZ):         805.93260   434.74430   282.40600
+ Zero-point vibrational energy      56720.0 (Joules/Mol)
+                                   13.55642 (Kcal/Mol)
+ Vibrational temperatures:   2472.06  5499.59  5672.05
+          (Kelvin)
+ 
+ Zero-point correction=                           0.021604 (Hartree/Particle)
+ Thermal correction to Energy=                    0.024438
+ Thermal correction to Enthalpy=                  0.025382
+ Thermal correction to Gibbs Free Energy=         0.003301
+ Sum of electronic and zero-point Energies=            -76.366696
+ Sum of electronic and thermal Energies=               -76.363861
+ Sum of electronic and thermal Enthalpies=             -76.362917
+ Sum of electronic and thermal Free Energies=          -76.384998
+ 
+                     E (Thermal)             CV                S
+                      KCal/Mol        Cal/Mol-Kelvin    Cal/Mol-Kelvin
+ Total                   15.335              5.996             46.474
+ Electronic               0.000              0.000              0.000
+ Translational            0.889              2.981             34.608
+ Rotational               0.889              2.981             11.861
+ Vibrational             13.558              0.034              0.005
+                       Q            Log10(Q)             Ln(Q)
+ Total Bot       0.303176D-01         -1.518305         -3.496026
+ Total V=0       0.262191D+09          8.418618         19.384585
+ Vib (Bot)       0.115661D-09         -9.936814        -22.880361
+ Vib (V=0)       0.100025D+01          0.000109          0.000251
+ Electronic      0.100000D+01          0.000000          0.000000
+ Translational   0.300431D+07          6.477745         14.915559
+ Rotational      0.872499D+02          1.940765          4.468776
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        8          -0.000891485   -0.000000780    0.000890155
+      2        1           0.000445523    0.000737382   -0.000444663
+      3        1           0.000445962   -0.000736602   -0.000445492
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.000891485 RMS     0.000620663
+ Force constants in Cartesian coordinates: 
+                1             2             3             4             5 
+      1  0.234855D+00
+      2 -0.163855D-05  0.683459D+00
+      3 -0.235629D+00  0.183257D-03  0.234152D+00
+      4 -0.117328D+00 -0.188775D+00  0.117666D+00  0.110413D+00
+      5 -0.140670D+00 -0.342015D+00  0.140370D+00  0.164707D+00  0.373727D+00
+      6  0.117678D+00  0.188403D+00 -0.116890D+00 -0.110742D+00 -0.164362D+00
+      7 -0.117526D+00  0.188777D+00  0.117964D+00  0.691501D-02 -0.240370D-01
+      8  0.140672D+00 -0.341444D+00 -0.140553D+00  0.240680D-01 -0.317124D-01
+      9  0.117951D+00 -0.188586D+00 -0.117262D+00 -0.692310D-02  0.239927D-01
+                6             7             8             9 
+      6  0.109995D+00
+      7 -0.693586D-02  0.110611D+00
+      8 -0.240406D-01 -0.164740D+00  0.373157D+00
+      9  0.689432D-02 -0.111028D+00  0.164593D+00  0.110368D+00
+ Leave Link  716 at Fri Jun 11 11:44:58 2021, MaxMem=   104857600 cpu:               0.1 elap:               0.1
+ (Enter /hpc/applications/gaussian/g16c/g16/l103.exe)
+
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Berny optimization.
+ Search for a local minimum.
+ Step number   1 out of a maximum of    2
+ All quantities printed in internal units (Hartrees-Bohrs-Radians)
+ Second derivative matrix not updated -- analytic derivatives used.
+ The second derivative matrix:
+                          X1        Y1        Z1        X2        Y2
+           X1           0.23485
+           Y1          -0.00000   0.68346
+           Z1          -0.23563   0.00018   0.23415
+           X2          -0.11733  -0.18878   0.11767   0.11041
+           Y2          -0.14067  -0.34201   0.14037   0.16471   0.37373
+           Z2           0.11768   0.18840  -0.11689  -0.11074  -0.16436
+           X3          -0.11753   0.18878   0.11796   0.00692  -0.02404
+           Y3           0.14067  -0.34144  -0.14055   0.02407  -0.03171
+           Z3           0.11795  -0.18859  -0.11726  -0.00692   0.02399
+                          Z2        X3        Y3        Z3
+           Z2           0.11000
+           X3          -0.00694   0.11061
+           Y3          -0.02404  -0.16474   0.37316
+           Z3           0.00689  -0.11103   0.16459   0.11037
+ ITU=  0
+     Eigenvalues ---    0.16477   0.78841   0.98616
+ Angle between quadratic step and forces=  23.27 degrees.
+ Linear search not attempted -- first point.
+ B after Tr=    -0.000349   -0.000000    0.000348
+         Rot=    1.000000   -0.000000    0.000000   -0.000000 Ang=   0.00 deg.
+ Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
+                                 (Linear)    (Quad)   (Total)
+    X1        2.56816  -0.00089   0.00000  -0.00057  -0.00092   2.56724
+    Y1       -0.00014  -0.00000   0.00000  -0.00000  -0.00000  -0.00014
+    Z1        0.20114   0.00089   0.00000   0.00057   0.00092   0.20206
+    X2        3.35919   0.00045   0.00000   0.00081   0.00046   3.35965
+    Y2        1.43565   0.00074   0.00000   0.00086   0.00086   1.43651
+    Z2       -0.58834  -0.00044   0.00000  -0.00081  -0.00046  -0.58879
+    X3        3.36006   0.00045   0.00000   0.00081   0.00046   3.36052
+    Y3       -1.43455  -0.00074   0.00000  -0.00086  -0.00086  -1.43541
+    Z3       -0.58996  -0.00045   0.00000  -0.00081  -0.00046  -0.59042
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000891     0.002500     YES
+ RMS     Force            0.000621     0.001667     YES
+ Maximum Displacement     0.000920     0.010000     YES
+ RMS     Displacement     0.000669     0.006667     YES
+ Predicted change in Energy=-1.864023D-06
+ Optimization completed.
+    -- Stationary point found.
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+
+ Leave Link  103 at Fri Jun 11 11:44:58 2021, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ (Enter /hpc/applications/gaussian/g16c/g16/l9999.exe)
+ Unable to Open any file for archive entry.
+ 1\1\GINC-P016\Freq\External='./ani_calc-2x.sh'\ZDO\H2O1\user1\11-Jun
+ -2021\0\\#P Geom=AllCheck Guess=TCheck SCRF=Check GenChk External='./a
+ ni_calc-2x.sh'/ZDO Freq\\Title Card Required\\0,1\O,1.3590120824,-0.00
+ 00719947,0.1064374542\H,1.7776090626,0.7597140029,-0.3113339256\H,1.77
+ 8065985,-0.7591328682,-0.3121931186\\Version=ES64L-G16RevC.01\HF=-76.3
+ 882992\RMSD=0.000e+00\RMSF=6.207e-04\ZeroPoint=0.0216035\Thermal=0.024
+ 438\ETot=-76.3638612\HTot=-76.362917\GTot=-76.3849983\Dipole=0.,0.,0.\
+ PG=CS [SG(H2O1)]\NImag=0\\0.23485467,-0.00000164,0.68345942,-0.2356292
+ 5,0.00018326,0.23415166,-0.11732823,-0.18877517,0.11766559,0.11041322,
+ -0.14067018,-0.34201492,0.14036958,0.16470713,0.37372729,0.11767835,0.
+ 18840286,-0.11688975,-0.11074249,-0.16436230,0.10999543,-0.11752644,0.
+ 18877681,0.11796366,0.00691501,-0.02403696,-0.00693586,0.11061143,0.14
+ 067181,-0.34144450,-0.14055284,0.02406804,-0.03171237,-0.02404056,-0.1
+ 6473985,0.37315687,0.11795090,-0.18858612,-0.11726191,-0.00692310,0.02
+ 399272,0.00689432,-0.11102780,0.16459341,0.11036759\\0.00089148,0.0000
+ 0078,-0.00089016,-0.00044552,-0.00073738,0.00044466,-0.00044596,0.0007
+ 3660,0.00044549\\\@
+ The archive entry for this job was punched.
+
+
+ TRUTH, IN SCIENCE, CAN BE DEFINED AS THE WORKING HYPOTHESIS 
+ BEST FITTED TO OPEN THE WAY TO THE NEXT BETTER ONE.
+
+                              -- KONRAD LORENZ
+ Job cpu time:       0 days  0 hours  0 minutes  0.7 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes 14.8 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+ Normal termination of Gaussian 16 at Fri Jun 11 11:44:58 2021.
