@@ -7,7 +7,6 @@ read atoms derivs charge spin < $2
 
 #Create temporary .xyz file
 #the element index should be replaced with element name, and the coordinate should be convert to Angstrom
-module list 
 
 echo "Generating mol.tmp"
 cat >> mol.tmp <<EOF
