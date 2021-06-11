@@ -1,4 +1,4 @@
-# calculate energy and gradient with ANI
+# calculate energy and Hessian with ANI
 import torch
 import torchani
 import math
